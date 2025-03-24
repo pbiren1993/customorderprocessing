@@ -28,3 +28,7 @@
    }
 - Demo link
  * https://www.awesomescreenshot.com/video/37956735?key=cbcc5e2e1c0ea9dccda2b519db7d8697
+
+## Tested On
+- Magento 2.4.7-p3
+- Php 8.2.8

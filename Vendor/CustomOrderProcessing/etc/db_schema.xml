@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd">
+	<table name="vendor_customorderprocessing_customorderprocessing" resource="default" engine="innodb" comment="vendor_customorderprocessing_customorderprocessing Table">
+		<column xsi:type="int" name="customorderprocessing_id" padding="10" unsigned="true" nullable="false" identity="true" comment="Entity Id"/>
+		<constraint xsi:type="primary" referenceId="PRIMARY">
+			<column name="customorderprocessing_id"/>
+		</constraint>
+		<column name="orderid" nullable="true" xsi:type="int" comment="orderid" identity="false"/>
+		<column name="oldstatus" nullable="true" xsi:type="text" comment="oldstatus"/>
+		<column name="newstatus" nullable="true" xsi:type="text" comment="newstatus"/>
+		<column name="timestamp" nullable="true" xsi:type="timestamp" comment="timestamp"/>
+	</table>
+</schema>
